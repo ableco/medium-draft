@@ -70,10 +70,10 @@ export const blockToHTML = (block) => {
       let inp = '';
       let containerClass = '';
       if (checked) {
-        inp = '<input type=checkbox disabled checked="checked" />';
+        inp = '<input type="checkbox" disabled checked>';
         containerClass = 'md-block-todo-checked';
       } else {
-        inp = '<input type=checkbox disabled />';
+        inp = '<input type="checkbox" disabled>';
         containerClass = 'md-block-todo-unchecked';
       }
       return {
